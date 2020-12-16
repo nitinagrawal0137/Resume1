@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-o;
+    list-style:none;
+    font-family:'Oswald',sans-serif;
+}
+
+body{
+    background:linear-gradient(to right,#5914da,#3bce95)
+}
+
+.resume{
+    width:800px;
+    background:#ffff;
+    margin: 25px auto;
+    display:flex;
+}
+
+.left{
+    background:teal;
+    width:250px;
+    padding: 0 20px;
+}
+
+.right{
+    width:calc(100% -250px);
+}
+.left .img_holder{
+     text-align:center;
+     padding: 20px 0;
+}
+
+.left .img_holder img{
+    width:150px;
+    border-radius:30px;
+}
+.pb{
+    padding-bottom: 20px;
+}
+.title{
+    font-size:24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.left .icon{
+    font-size:20px;
+    color:black;
+}
+.left .text{
+    color:black;
+    font-size: 15px;
+}
+.contact .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .li_wrap .icon{
+    width: 30px;
+    height: 30px;
+}
+.skills ul,
+.hobbies ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.skills  .li_wrap,
+.hobbies  .li_wrap{
+    width: 100px;
+    height:100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: peachpuff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    background: teal;
+    padding :15px 30px;
+    color:wheat;
+    height: 240px;
+}
+
+.header .name{
+     font-size:50px;
+     font-weight: 700;
+     color:black;
+}
+
+.header .about{
+    margin-top:20px;
+    line-height: 25px;
+}
+
+.right_inner .education{
+    margin-top: 30px;
+}
+.right_inner .li_wrap{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.right_inner .li_wrap .date{
+    width:125px;
+    color:teal;
+    padding-left:10px;
+
+}
+
+.right_inner .li_wrap .info{
+    width: calc(100% -125px);
+    padding-left: 25px;
+    position:relative;
+}
+.right_inner .title{
+    color:gray;
+}
